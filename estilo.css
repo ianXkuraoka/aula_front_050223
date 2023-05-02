@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(129, 212, 212);
+}
+
+ul{
+    padding: 0px;
+    width: 90px;
+    height: 74px;
+    color: transparent;
+}
+
+li a{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.menu{
+    display: none;
+    height: 18px;
+    background-color: rgb(87, 57, 116);
+}
+
+.menu1{
+    background-color: blueviolet;
+    height: 20px;
+}
+
+ul:hover li{
+    display: block;
+    background-color: rgb(196, 172, 218);
+}
